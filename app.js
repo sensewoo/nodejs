@@ -1,8 +1,8 @@
 var express = require('express'),
-    app     = express(),
+    app     = express();
     
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
-    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0',
+var port = 8080,
+    ip   = '0.0.0.0';
 
 app.get('/', function (req, res) {
     res.send('Hello World!');
