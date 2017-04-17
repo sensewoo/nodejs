@@ -5,14 +5,13 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.13.4",
-    "pm2": "^2.4.5"
   },
   "engine": {
     "node": "*",
     "npm": "*"
   },
   "scripts": {
-    "start": "pm2 start app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
